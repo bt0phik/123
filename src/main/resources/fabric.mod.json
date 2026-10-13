@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "farsight_lod",
+  "version": "${version}",
+  "name": "FarSight LOD",
+  "description": "An experimental distant-terrain LOD mod for Fabric.",
+  "authors": [
+    "FarSight"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.farsight.lod.FarSightClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
